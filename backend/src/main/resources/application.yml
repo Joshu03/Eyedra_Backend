@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: backend
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/eyedra
+      database: eyedra
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: info
+    org.springframework: debug
